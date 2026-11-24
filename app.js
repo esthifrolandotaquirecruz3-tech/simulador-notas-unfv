@@ -216,7 +216,7 @@ function renderActiveCourse() {
     addRubricBtn.disabled = true;
     autoWeightBtn.disabled = true;
     deleteCourseBtn.disabled = true;
-    container.innerHTML = `<div class="empty-box">Crea un curso arriba o haz clic en <strong>"Cargar ejemplo de Física"</strong>.</div>`;
+    container.innerHTML = `<div class="empty-box">Agrega un curso arriba o haz clic en <strong>"Cargar ejemplo de Física"</strong>.</div>`;
     updateCalculations();
     return;
   }
