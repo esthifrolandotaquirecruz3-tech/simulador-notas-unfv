@@ -414,7 +414,7 @@ function updateCalculations() {
   const course = state.courses.find((c) => c.id === state.activeCourseId);
   if (!course) {
     heroTag.textContent = "LISTO PARA EMPEZAR";
-    heroHeadline.textContent = "Crea un curso o carga el ejemplo de Física";
+    heroHeadline.textContent = "Agregar curso";
     heroSubtext.textContent = "Promedio simple por bloque × porcentaje → suma total.";
     accumulatedEl.textContent = "0.00";
     renderOverviewTable();
